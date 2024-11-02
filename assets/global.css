@@ -29,4 +29,17 @@
      --text: 400 16px var(var(--font-family));
      --subtitle: 16px var(--font-family);      /* italic */
     }
+    
+   body {
+     background-color: var(--background-default);
+   }
 
+    img {
+      max-width: 1120px;
+    }
+
+    span {
+      font: var(--headline);
+      text-transform: uppercase;
+      color: var(--text-headline);
+    }
