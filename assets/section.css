@@ -1,0 +1,33 @@
+.header > header {
+  span {
+    text-transform: uppercase;
+    font: var(--headline);
+    color: var(--text-headline);
+
+    margin-bottom: 8px;
+  }
+
+  h1{
+    font: var(--h1);
+  }
+
+  margin-bottom: 28px;
+}
+
+figure {
+  
+  img {
+    object-fit: cover;
+    border-radius: 28px;
+    
+    height: 660px;
+    max-width: 1120px;
+    margin-bottom: 24px;
+  }
+} 
+
+figcaption {
+    height: 37px;
+    font: var(--subtitle);
+    color: var(--text-secondary);
+  }
