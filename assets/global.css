@@ -21,16 +21,47 @@
   --accent-purple: #591B98;
 
      /* Tipografia */
-     --font-family: "Open Sans", serif;
+   --font-family: "Open Sans", serif;
 
-     --h1: 700 36px var(--font-family);
-     --h2: 700 32px var(--font-family);
-     --h3: 700 28px var(--font-family);
-     --headline: 700 16px var(--font-family);
-     --text-sm: 400 16px var(--font-family);
-     --subtitle: italic 16px var(--font-family);      /* italic */
-    }
+  --h1: 700 36px var(--font-family);
+  --h2: 700 32px var(--font-family);
+  --h3: 700 28px var(--font-family);
+  --headline: 700 16px var(--font-family);
+  --text-sm: 400 16px var(--font-family);
+  --subtitle: italic 16px var(--font-family);      /* italic */
+}
     
    body {
     background-color: var(--background-default);
    }  
+
+   img {
+    margin-bottom: 20px;
+   }
+
+   h3 {
+      font: var(--h3);
+      color: var(--text-primary);
+      padding-left: 7px;
+      margin-bottom: 4px;
+
+    }
+
+   span {
+      font-family: 'Open sans', serif;
+      font-weight: 700;
+      color: var(--text-secondary);
+   }
+
+   p {
+      font: var(--text-sm);
+      color: var(--text-secondary);
+    }
+
+    li {
+      font-family: 'Open sans', serif;
+      font-weight: 600;
+      font-size: 16px;
+      
+      margin-left: 26px;
+    }
